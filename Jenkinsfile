@@ -37,7 +37,7 @@ pipeline {
                    Modified host port to 9090.
                    Added --name for easier management later.
                 */
-                bat 'docker run -d --name student-container -p 9090:8080 student-app'
+                bat 'docker run -d --name student-container -p 9091:8080 student-app'
             }
         }
     }
